@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+h1{
+    color: rgb(61, 19, 240);
+    text-shadow: 2px 2px 5px rgb(160, 160, 160);
+    font-weight: 800;
+    font-size: 2,6em;
+    text-align: center;
+    
+
+}
+
+
+h3{
+    color: rgb(61, 19, 240);
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center
+
+
+}
+a{
+    color: rgb(61, 19, 240) ;
+}
+p{
+    font-family: "Roboto", sans-serif; ;
+}
+nav{
+    background-color: rgb(108, 167, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1%;
+}
+
+    nav ul{
+        display: flex;
+    }
+
+
+
+        nav ul li{
+            
+            font-size: 1,1em;
+            font-weight: 600;
+            list-style: none;
+            margin-right: 20px ;
+            text-transform: uppercase;
+            
+
+        }
+            nav ul li a{
+                text-decoration: none;
+                color: rgb(61, 19, 240);
+        
+        
+
+            }
+            nav ul li a:hover{
+                color: rgb(19, 240, 220);
+            }
+
+
+nav img{
+    width: 5%;
+}
+
+nav .btn{
+    width: 100%;
+    
+}
+.btn{
+    width: 300px;
+    background-color: rgb(19, 240, 220);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    cursor: pointer;
+    
+
+}
+
+.btn:hover{
+    background-color: rgb(61, 19, 240);
+    color: rgb(19, 240, 220);
+}
+
+
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+
+
+}
+
+
+header p{
+    color: rgb(61, 19, 240);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+
+
+
+    
+    
+
+
+.como-comprar{
+    background-color: rgb(108, 167, 240);
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.como-comprar h3{
+    position: absolute;
+   
+}
+
+.como-comprar figure{
+    width: 30%;
+    background-color: white;
+    border: solid rgb(108, 167, 240) 3px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 4% 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .como-comprar figure img{
+        width: 20%;
+        padding-bottom: 20%;
+    }
+
+        .como-comprar figure figcaption{
+            color: rgb(108, 167, 240);
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 1%;
+            line-height: 26px;
+        }
+
+            .como-comprar figure p{
+                color: rgb(108, 167, 240);
+                font-family: "Roboto", sans-serif;
+                font-size: 1em;
+                font-weight: 400;
+                line-height: 20px;
+
+            }
+.que-comprar{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+
+}
+
+.que-comprar h3{
+    position: absolute;
+}
+
+.que-comprar figure{
+    width: 50%;
+    background-color: rgb(108, 167, 240);
+    margin: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
+}
+
+.que-comprar figure img{
+    width: 100%;
+    border-radius: 
+   
+
+
+}
+
+.que-comprar figure figcaption{
+    margin: 2% 5%;
+    color: rgb(61, 19, 240);
+    font-size: 28;
+    font-weight: 700;
+
+
+}
+
+.que-comprar figure p{
+    margin: 2% 5%;
+    color: rgb(61, 19, 240);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+.recomendados{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+   
+}
+
+.recomendados img{
+    width: 20%;
+    border: solid rgb(108, 167, 240) 2px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+
+
+   
+
+}
+footer{
+    width: 100%;
+    background-color:rgb(108, 167, 240) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 1%;
+
+
+
+}
+.logotipo{
+    width: 20%;
+
+
+}
+
+.columna{
+
+}
+
+
+
+footer img p{
+    padding: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
